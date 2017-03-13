@@ -68,7 +68,7 @@ import com.tsc9526.monalisa.tools.servlet.MelpServlet;
  * <li><b>column</b><br>
  * column=c1,c2,c3...   means: include column(c1,c2,c3) <br>
  * -column=c1,c2 means: exclude column(c1,c2)
- * <li><b>_order</b><br>
+ * <li><b>order</b><br>
  * order=+c1,-c2  means: ORDER BY c1 ASC, c2 DESC
  * <li><b>limit</b><br>
  * limit=30
