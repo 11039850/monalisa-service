@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 13 14:20:42 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1172 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.OnlyActionTest.testDeleteAll()'><b>testDeleteAll</b><br>Test class: test.com.tsc9526.monalisa.service.actions.OnlyActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.OnlyActionTest.testDeleteByPk()'><b>testDeleteByPk</b><br>Test class: test.com.tsc9526.monalisa.service.actions.OnlyActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.DeleteActionTest.testDeleteDbTableByMultiKeys()'><b>testDeleteDbTableByMultiKeys</b><br>Test class: test.com.tsc9526.monalisa.service.actions.DeleteActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.DeleteActionTest@464bee09</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.DeleteActionTest.testDeleteDbTableByPk()'><b>testDeleteDbTableByPk</b><br>Test class: test.com.tsc9526.monalisa.service.actions.DeleteActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.DeleteActionTest@464bee09</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.DeleteActionTest.testDeleteDbTableByWhere()'><b>testDeleteDbTableByWhere</b><br>Test class: test.com.tsc9526.monalisa.service.actions.DeleteActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.DeleteActionTest@464bee09</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.OnlyActionTest.testGet()'><b>testGet</b><br>Test class: test.com.tsc9526.monalisa.service.actions.OnlyActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDb()'><b>testGetDb</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbInvalidName()'><b>testGetDbInvalidName</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTable1()'><b>testGetDbTable1</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTable2()'><b>testGetDbTable2</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTableFilter01()'><b>testGetDbTableFilter01</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTableFilter02()'><b>testGetDbTableFilter02</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTableFilter03()'><b>testGetDbTableFilter03</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTableFilter04()'><b>testGetDbTableFilter04</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTableNotExist()'><b>testGetDbTableNotExist</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTablePk1()'><b>testGetDbTablePk1</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTablePkWithColumnName()'><b>testGetDbTablePkWithColumnName</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTablePkWithJavaName()'><b>testGetDbTablePkWithJavaName</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.GetActionTest.testGetDbTableWithuQalifier()'><b>testGetDbTableWithuQalifier</b><br>Test class: test.com.tsc9526.monalisa.service.actions.GetActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.auth.AuthorizationTest.testParser1()'><b>testParser1</b><br>Test class: test.com.tsc9526.monalisa.service.auth.AuthorizationTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.auth.AuthorizationTest@57fffcd7</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.auth.AuthorizationTest.testParser2()'><b>testParser2</b><br>Test class: test.com.tsc9526.monalisa.service.auth.AuthorizationTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.auth.AuthorizationTest@57fffcd7</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.OnlyActionTest.testPost()'><b>testPost</b><br>Test class: test.com.tsc9526.monalisa.service.actions.OnlyActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PostActionTest.testPostDbTableByMultiKeys()'><b>testPostDbTableByMultiKeys</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PostActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PostActionTest.testPostDbTableByPk()'><b>testPostDbTableByPk</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PostActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PostActionTest.testPostDbTableNone()'><b>testPostDbTableNone</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PostActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PostActionTest.testPostDbTableRow1()'><b>testPostDbTableRow1</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PostActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PostActionTest.testPostDbTableRow2()'><b>testPostDbTableRow2</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PostActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PostActionTest.testPostMultiTables()'><b>testPostMultiTables</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PostActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.OnlyActionTest.testPut()'><b>testPut</b><br>Test class: test.com.tsc9526.monalisa.service.actions.OnlyActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PutActionTest.testPutDbTableByMultiKeys()'><b>testPutDbTableByMultiKeys</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PutActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PutActionTest.testPutDbTableByPk()'><b>testPutDbTableByPk</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PutActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PutActionTest.testPutDbTableNone()'><b>testPutDbTableNone</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PutActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.actions.PutActionTest.testPutDbTableRow1()'><b>testPutDbTableRow1</b><br>Test class: test.com.tsc9526.monalisa.service.actions.PutActionTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest.testServlet1()'><b>testServlet1</b><br>Test class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest@31ef45e3</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest.testServlet2()'><b>testServlet2</b><br>Test class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest@31ef45e3</td></tr>
+<tr>
+<td title='test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest.testServlet3()'><b>testServlet3</b><br>Test class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest</td>
+<td></td>
+<td>0</td>
+<td>test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest@31ef45e3</td></tr>
+</table><p>
+</body>
+</html>

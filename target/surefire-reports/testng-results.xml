@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="36" passed="36">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1172" started-at="2017-03-13T06:20:42Z" finished-at="2017-03-13T06:20:44Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1172" started-at="2017-03-13T06:20:42Z" finished-at="2017-03-13T06:20:44Z">
+      <class name="test.com.tsc9526.monalisa.service.actions.PutActionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04]" name="setup" is-config="true" duration-ms="57" started-at="2017-03-13T14:20:44Z" finished-at="2017-03-13T14:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPutDbTableByMultiKeys()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04]" name="testPutDbTableByMultiKeys" duration-ms="10" started-at="2017-03-13T14:20:44Z" finished-at="2017-03-13T14:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutDbTableByMultiKeys -->
+        <test-method status="PASS" signature="testPutDbTableByPk()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04]" name="testPutDbTableByPk" duration-ms="10" started-at="2017-03-13T14:20:44Z" finished-at="2017-03-13T14:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutDbTableByPk -->
+        <test-method status="PASS" signature="testPutDbTableNone()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04]" name="testPutDbTableNone" duration-ms="1" started-at="2017-03-13T14:20:44Z" finished-at="2017-03-13T14:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutDbTableNone -->
+        <test-method status="PASS" signature="testPutDbTableRow1()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PutActionTest@3abbfa04]" name="testPutDbTableRow1" duration-ms="1" started-at="2017-03-13T14:20:44Z" finished-at="2017-03-13T14:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutDbTableRow1 -->
+      </class> <!-- test.com.tsc9526.monalisa.service.actions.PutActionTest -->
+      <class name="test.com.tsc9526.monalisa.service.actions.DeleteActionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.DeleteActionTest@464bee09]" name="setup" is-config="true" duration-ms="420" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testDeleteDbTableByMultiKeys()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.DeleteActionTest@464bee09]" name="testDeleteDbTableByMultiKeys" duration-ms="59" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteDbTableByMultiKeys -->
+        <test-method status="PASS" signature="testDeleteDbTableByPk()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.DeleteActionTest@464bee09]" name="testDeleteDbTableByPk" duration-ms="8" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteDbTableByPk -->
+        <test-method status="PASS" signature="testDeleteDbTableByWhere()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.DeleteActionTest@464bee09]" name="testDeleteDbTableByWhere" duration-ms="7" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteDbTableByWhere -->
+        <test-method status="PASS" signature="testDeleteAllTable()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.DeleteActionTest@464bee09]" name="testDeleteAllTable" is-config="true" duration-ms="2" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAllTable -->
+      </class> <!-- test.com.tsc9526.monalisa.service.actions.DeleteActionTest -->
+      <class name="test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest">
+        <test-method status="PASS" signature="testServlet1()[pri:0, instance:test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest@31ef45e3]" name="testServlet1" duration-ms="270" started-at="2017-03-13T14:20:42Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServlet1 -->
+        <test-method status="PASS" signature="testServlet2()[pri:0, instance:test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest@31ef45e3]" name="testServlet2" duration-ms="12" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServlet2 -->
+        <test-method status="PASS" signature="testServlet3()[pri:0, instance:test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest@31ef45e3]" name="testServlet3" duration-ms="16" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServlet3 -->
+      </class> <!-- test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest -->
+      <class name="test.com.tsc9526.monalisa.service.actions.GetActionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="setup" is-config="true" duration-ms="47" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGetDb()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDb" duration-ms="3" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDb -->
+        <test-method status="PASS" signature="testGetDbInvalidName()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbInvalidName" duration-ms="10" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbInvalidName -->
+        <test-method status="PASS" signature="testGetDbTable1()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTable1" duration-ms="15" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTable1 -->
+        <test-method status="PASS" signature="testGetDbTable2()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTable2" duration-ms="4" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTable2 -->
+        <test-method status="PASS" signature="testGetDbTableFilter01()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTableFilter01" duration-ms="3" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTableFilter01 -->
+        <test-method status="PASS" signature="testGetDbTableFilter02()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTableFilter02" duration-ms="4" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTableFilter02 -->
+        <test-method status="PASS" signature="testGetDbTableFilter03()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTableFilter03" duration-ms="3" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTableFilter03 -->
+        <test-method status="PASS" signature="testGetDbTableFilter04()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTableFilter04" duration-ms="3" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTableFilter04 -->
+        <test-method status="PASS" signature="testGetDbTableNotExist()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTableNotExist" duration-ms="3" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTableNotExist -->
+        <test-method status="PASS" signature="testGetDbTablePk1()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTablePk1" duration-ms="5" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTablePk1 -->
+        <test-method status="PASS" signature="testGetDbTablePkWithColumnName()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTablePkWithColumnName" duration-ms="6" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTablePkWithColumnName -->
+        <test-method status="PASS" signature="testGetDbTablePkWithJavaName()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTablePkWithJavaName" duration-ms="4" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTablePkWithJavaName -->
+        <test-method status="PASS" signature="testGetDbTableWithuQalifier()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.GetActionTest@f6c48ac]" name="testGetDbTableWithuQalifier" duration-ms="3" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDbTableWithuQalifier -->
+      </class> <!-- test.com.tsc9526.monalisa.service.actions.GetActionTest -->
+      <class name="test.com.tsc9526.monalisa.service.actions.PostActionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8]" name="setup" is-config="true" duration-ms="51" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPostDbTableByMultiKeys()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8]" name="testPostDbTableByMultiKeys" duration-ms="12" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostDbTableByMultiKeys -->
+        <test-method status="PASS" signature="testPostDbTableByPk()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8]" name="testPostDbTableByPk" duration-ms="10" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostDbTableByPk -->
+        <test-method status="PASS" signature="testPostDbTableNone()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8]" name="testPostDbTableNone" duration-ms="2" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostDbTableNone -->
+        <test-method status="PASS" signature="testPostDbTableRow1()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8]" name="testPostDbTableRow1" duration-ms="12" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostDbTableRow1 -->
+        <test-method status="PASS" signature="testPostDbTableRow2()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8]" name="testPostDbTableRow2" duration-ms="16" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostDbTableRow2 -->
+        <test-method status="PASS" signature="testPostMultiTables()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.PostActionTest@239963d8]" name="testPostMultiTables" duration-ms="20" started-at="2017-03-13T14:20:44Z" finished-at="2017-03-13T14:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostMultiTables -->
+      </class> <!-- test.com.tsc9526.monalisa.service.actions.PostActionTest -->
+      <class name="test.com.tsc9526.monalisa.service.auth.AuthorizationTest">
+        <test-method status="PASS" signature="testParser1()[pri:0, instance:test.com.tsc9526.monalisa.service.auth.AuthorizationTest@57fffcd7]" name="testParser1" duration-ms="12" started-at="2017-03-13T14:20:42Z" finished-at="2017-03-13T14:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParser1 -->
+        <test-method status="PASS" signature="testParser2()[pri:0, instance:test.com.tsc9526.monalisa.service.auth.AuthorizationTest@57fffcd7]" name="testParser2" duration-ms="0" started-at="2017-03-13T14:20:42Z" finished-at="2017-03-13T14:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParser2 -->
+      </class> <!-- test.com.tsc9526.monalisa.service.auth.AuthorizationTest -->
+      <class name="test.com.tsc9526.monalisa.service.actions.OnlyActionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e]" name="setup" is-config="true" duration-ms="2" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testDeleteAll()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e]" name="testDeleteAll" duration-ms="2" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAll -->
+        <test-method status="PASS" signature="testDeleteByPk()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e]" name="testDeleteByPk" duration-ms="8" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteByPk -->
+        <test-method status="PASS" signature="testGet()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e]" name="testGet" duration-ms="5" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="testPost()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e]" name="testPost" duration-ms="2" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+        <test-method status="PASS" signature="testPut()[pri:0, instance:test.com.tsc9526.monalisa.service.actions.OnlyActionTest@13deb50e]" name="testPut" duration-ms="2" started-at="2017-03-13T14:20:43Z" finished-at="2017-03-13T14:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPut -->
+      </class> <!-- test.com.tsc9526.monalisa.service.actions.OnlyActionTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

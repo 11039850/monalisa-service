@@ -1,0 +1,675 @@
+2017-03-13 11:15:30,787 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 11:15:30,789 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:22:21,462 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 11:22:21,465 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:22:21,564 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from C:\Users\zzg\.m2\repository\mysql\mysql-connector-java\5.1.24\mysql-connector-java-5.1.24.jar
+Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:43)
+If you don't want to see this message, please add the jar: mysql-connector-java-5.1.24.jar to your class path. Here is an example for maven: 
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.24</version>
+</dependency>  
+
+OR first call: com.tsc9526.monalisa.orm.datasource.DbProp.CFG_LOG_JARLOCATION_DETAIL = false;
+
+2017-03-13 11:22:21,876 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:22:21,881 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:25:58,874 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 11:25:58,877 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:25:58,951 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:43)
+2017-03-13 11:25:59,273 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:25:59,276 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:29:24,121 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 11:29:24,124 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:29:24,190 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:43)
+2017-03-13 11:29:24,511 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:29:24,515 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:29:40,907 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 11:29:40,909 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:29:40,966 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:43)
+2017-03-13 11:29:41,303 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:29:41,308 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:30:51,925 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 11:30:51,928 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:30:51,978 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:43)
+2017-03-13 11:30:52,331 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:30:52,335 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:37:13,278 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 11:37:13,279 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 11:37:13,307 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 11:37:13,322 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:37:13,322 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:37:13,352 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 11:37:13,352 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:37:13,354 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 11:37:13,354 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 11:37:13,358 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 11:37:13,370 [INFO] [com.tsc9526.monalisa.service.Dispatcher] HEAD /`db1`
+2017-03-13 11:37:13,381 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 11:37:13,381 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] POST /db1/test_record_v2/1
+message: Illegal http method: POST
+2017-03-13 11:37:13,387 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 11:37:13,387 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] PUT /db1/test_record_v2/1
+message: Illegal http method: PUT
+2017-03-13 11:37:13,392 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 11:37:13,392 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:37:13,479 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 11:37:13,479 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] PUT /db1/test_record_v2/record_id=2
+message: PUT error, no record found!
+2017-03-13 11:37:13,483 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2
+2017-03-13 11:37:13,483 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] PUT /db1/test_record_v2
+message: Access forbidden: PUT, using POST instead.
+2017-03-13 11:37:13,486 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 11:37:13,486 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:37:13,555 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/record_id=2
+2017-03-13 11:37:13,571 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 11:37:13,581 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 11:37:13,590 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 11:37:13,590 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 11:37:13,592 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 11:37:13,592 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:37:13,662 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1
+2017-03-13 11:37:13,664 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] GET /db1
+message: Missing table, add request parameter: method=HEAD OR: /db1/your_table_name
+2017-03-13 11:37:13,667 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_%20
+2017-03-13 11:37:13,686 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_%20
+2017-03-13 11:37:13,686 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_%20
+message: SQL Exception: Table 'test_monalisa.test_' doesn't exist
+========================================================================
+SELECT * FROM test_  LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 11:37:13,690 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:37:13,708 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:37:13,720 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:37:13,743 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:37:13,752 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:37:13,760 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:37:13,769 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2_not_exists
+2017-03-13 11:37:13,771 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_record_v2_not_exists
+2017-03-13 11:37:13,772 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_record_v2_not_exists
+message: SQL Exception: Table 'test_monalisa.test_record_v2_not_exists' doesn't exist
+========================================================================
+SELECT * FROM test_record_v2_not_exists LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 11:37:13,775 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/1
+2017-03-13 11:37:13,783 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/record_Id=1
+2017-03-13 11:37:13,799 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/recordId=1
+2017-03-13 11:37:13,806 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/`recordId`=1
+2017-03-13 11:43:33,989 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 11:43:33,991 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:34,023 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 11:43:34,329 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:43:34,332 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:34,503 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 11:43:34,558 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 11:43:34,577 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 11:43:34,577 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 11:43:34,587 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 11:43:34,612 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 11:43:34,639 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 11:43:34,658 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:43:34,658 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:34,683 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 11:43:34,683 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:34,685 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 11:43:34,686 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 11:43:34,691 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 11:43:34,699 [INFO] [com.tsc9526.monalisa.service.Dispatcher] HEAD /`db1`
+2017-03-13 11:43:34,708 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 11:43:34,708 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] POST /db1/test_record_v2/1
+message: Illegal http method: POST
+2017-03-13 11:43:34,711 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 11:43:34,711 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] PUT /db1/test_record_v2/1
+message: Illegal http method: PUT
+2017-03-13 11:43:34,716 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 11:43:34,716 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:34,772 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 11:43:34,773 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] PUT /db1/test_record_v2/record_id=2
+message: PUT error, no record found!
+2017-03-13 11:43:34,776 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2
+2017-03-13 11:43:34,776 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] PUT /db1/test_record_v2
+message: Access forbidden: PUT, using POST instead.
+2017-03-13 11:43:34,779 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 11:43:34,779 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:34,893 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/record_id=2
+2017-03-13 11:43:34,912 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 11:43:34,947 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 11:43:34,962 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 11:43:34,962 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 11:43:34,964 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 11:43:34,965 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:35,022 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1
+2017-03-13 11:43:35,024 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] GET /db1
+message: Missing table, add request parameter: method=HEAD OR: /db1/your_table_name
+2017-03-13 11:43:35,027 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_%20
+2017-03-13 11:43:35,030 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_%20
+2017-03-13 11:43:35,030 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_%20
+message: SQL Exception: Table 'test_monalisa.test_' doesn't exist
+========================================================================
+SELECT * FROM test_  LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 11:43:35,033 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:43:35,045 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:43:35,049 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:43:35,054 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:43:35,059 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:43:35,065 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 11:43:35,070 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2_not_exists
+2017-03-13 11:43:35,073 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_record_v2_not_exists
+2017-03-13 11:43:35,073 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_record_v2_not_exists
+message: SQL Exception: Table 'test_monalisa.test_record_v2_not_exists' doesn't exist
+========================================================================
+SELECT * FROM test_record_v2_not_exists LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 11:43:35,077 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/1
+2017-03-13 11:43:35,084 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/record_Id=1
+2017-03-13 11:43:35,092 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/recordId=1
+2017-03-13 11:43:35,098 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/`recordId`=1
+2017-03-13 11:43:49,923 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 11:43:49,925 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:49,958 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 11:43:50,251 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:43:50,254 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 11:43:50,410 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 11:43:50,460 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 11:43:50,485 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 11:43:50,485 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 11:43:50,496 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 11:43:50,517 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 11:43:50,548 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 11:43:50,569 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 11:43:50,570 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:09:35,981 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 12:09:35,984 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:09:36,018 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 12:09:36,317 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:09:36,323 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:09:36,518 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 12:09:36,564 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 12:09:36,578 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 12:09:36,578 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 12:09:36,590 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 12:09:36,609 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 12:09:36,646 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 12:09:36,665 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:09:36,665 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:09:53,370 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 12:09:53,405 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 12:09:53,446 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 12:09:53,452 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service]
+2017-03-13 12:09:53,453 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 12:09:53,455 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 12:09:53,459 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 12:09:53,460 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 12:09:53,465 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 12:09:53,466 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, path: D:/workspace/workspace-github/monalisa-service, file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:10:27,329 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 12:10:27,367 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 12:10:27,410 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 12:10:27,417 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service]
+2017-03-13 12:10:27,419 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 12:10:27,420 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 12:10:27,422 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 12:10:27,423 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 12:10:27,429 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 12:10:27,430 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:10:27,431 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:10:27,432 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:10:27,433 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:10:27,440 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs301(/dbs/dbs301), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service
+2017-03-13 12:10:27,441 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs302(/dbs/dbs302), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service
+2017-03-13 12:10:42,788 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 12:10:42,830 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 12:10:42,869 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 12:10:42,876 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service]
+2017-03-13 12:10:42,877 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 12:10:42,878 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 12:10:42,881 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 12:10:42,882 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 12:10:42,888 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 12:10:42,889 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:10:42,889 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:10:42,891 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:10:42,891 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:10:42,898 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs301(/dbs/dbs301), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service
+2017-03-13 12:10:42,899 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs302(/dbs/dbs302), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service
+2017-03-13 12:12:02,216 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 12:12:02,245 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 12:12:02,294 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 12:12:02,303 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service]
+2017-03-13 12:12:02,305 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 12:12:02,306 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 12:12:02,311 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 12:12:02,313 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 12:12:02,322 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 12:12:02,323 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:12:02,325 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:12:02,326 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:12:02,327 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:12:02,334 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs301(/dbs/dbs301), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service
+2017-03-13 12:12:02,335 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs302(/dbs/dbs302), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service
+2017-03-13 12:12:02,337 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 12:12:02,339 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:12:02,361 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 12:12:02,630 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:12:02,633 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:04,225 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 12:13:04,227 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:04,262 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 12:13:04,539 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:13:04,542 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:04,696 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 12:13:04,739 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 12:13:04,755 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 12:13:04,756 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 12:13:04,768 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 12:13:04,791 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 12:13:04,817 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 12:13:04,841 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:13:04,841 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:04,854 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 12:13:04,854 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:04,855 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 12:13:04,856 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 12:13:04,859 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 12:13:04,869 [INFO] [com.tsc9526.monalisa.service.Dispatcher] HEAD /`db1`
+2017-03-13 12:13:04,882 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 12:13:04,883 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] POST /db1/test_record_v2/1
+message: Illegal http method: POST
+2017-03-13 12:13:04,891 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 12:13:04,892 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] PUT /db1/test_record_v2/1
+message: Illegal http method: PUT
+2017-03-13 12:13:04,896 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 12:13:04,896 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:04,961 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 12:13:04,980 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 12:13:04,989 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 12:13:04,990 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] PUT /db1/test_record_v2/record_id=2
+message: PUT error, no record found!
+2017-03-13 12:13:04,994 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2
+2017-03-13 12:13:04,994 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] PUT /db1/test_record_v2
+message: Access forbidden: PUT, using POST instead.
+2017-03-13 12:13:04,996 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 12:13:04,997 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:05,055 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/record_id=2
+2017-03-13 12:13:05,070 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 12:13:05,078 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 12:13:05,084 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 12:13:05,084 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 12:13:05,086 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 12:13:05,086 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:05,156 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1
+2017-03-13 12:13:05,157 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] GET /db1
+message: Missing table, add request parameter: method=HEAD OR: /db1/your_table_name
+2017-03-13 12:13:05,159 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_%20
+2017-03-13 12:13:05,163 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_%20
+2017-03-13 12:13:05,163 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_%20
+message: SQL Exception: Table 'test_monalisa.test_' doesn't exist
+========================================================================
+SELECT * FROM test_  LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 12:13:05,166 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 12:13:05,175 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 12:13:05,185 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 12:13:05,191 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 12:13:05,198 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 12:13:05,203 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 12:13:05,210 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2_not_exists
+2017-03-13 12:13:05,214 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_record_v2_not_exists
+2017-03-13 12:13:05,214 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_record_v2_not_exists
+message: SQL Exception: Table 'test_monalisa.test_record_v2_not_exists' doesn't exist
+========================================================================
+SELECT * FROM test_record_v2_not_exists LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 12:13:05,217 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/1
+2017-03-13 12:13:05,225 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/record_Id=1
+2017-03-13 12:13:05,230 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/recordId=1
+2017-03-13 12:13:05,235 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/`recordId`=1
+2017-03-13 12:13:16,215 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 12:13:16,244 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 12:13:16,296 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 12:13:16,299 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service]
+2017-03-13 12:13:16,304 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 12:13:16,307 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 12:13:16,310 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 12:13:16,313 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 12:13:16,317 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 12:13:16,318 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:13:16,318 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:13:16,320 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:13:16,320 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:13:16,328 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs301(/dbs/dbs301), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service
+2017-03-13 12:13:16,329 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs302(/dbs/dbs302), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service
+2017-03-13 12:13:16,332 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 12:13:16,333 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:13:16,349 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 12:13:16,635 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:13:16,638 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:14:14,307 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 12:14:14,309 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:14:14,342 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 12:14:14,674 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:14:14,679 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:14:25,266 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 12:14:25,347 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 12:14:25,371 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 12:14:25,372 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 12:14:25,391 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 12:14:25,413 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 12:14:25,441 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 12:14:25,462 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:14:25,462 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:16:37,755 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 12:16:37,781 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 12:16:37,841 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 12:16:37,846 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service]
+2017-03-13 12:16:37,848 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 12:16:37,849 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 12:16:37,852 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 12:16:37,854 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 12:16:37,857 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 12:16:37,858 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:16:37,859 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:16:37,859 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 12:16:37,860 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 12:16:37,864 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs301(/dbs/dbs301), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service
+2017-03-13 12:16:37,865 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs302(/dbs/dbs302), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service
+2017-03-13 12:16:37,867 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 12:16:37,867 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 12:16:37,878 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 12:16:38,143 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 12:16:38,146 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 13:50:43,991 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 13:50:43,993 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 13:50:44,031 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 13:50:44,355 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 13:50:44,358 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 13:50:44,524 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/record_id=2
+2017-03-13 13:50:44,564 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 13:50:44,582 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 13:50:44,598 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 13:50:44,599 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 14:14:53,660 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 14:14:53,696 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 14:14:53,729 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 14:14:53,734 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service]
+2017-03-13 14:14:53,736 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 14:14:53,739 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 14:14:53,742 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 14:14:53,744 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 14:14:53,747 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 14:14:53,748 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 14:14:53,748 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 14:14:53,749 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 14:14:53,750 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 14:14:53,758 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs301(/dbs/dbs301), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service
+2017-03-13 14:14:53,759 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs302(/dbs/dbs302), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service
+2017-03-13 14:14:53,762 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 14:14:53,762 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:14:53,776 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 14:14:54,054 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 14:14:54,056 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:14:54,175 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/record_id=2
+2017-03-13 14:14:54,219 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 14:14:54,226 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:14:54,239 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:14:54,239 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 14:14:54,241 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:14:54,241 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:14:54,322 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1
+2017-03-13 14:14:54,322 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] GET /db1
+message: Missing table, add request parameter: method=HEAD OR: /db1/your_table_name
+2017-03-13 14:14:54,325 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_%20
+2017-03-13 14:14:54,331 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_%20
+2017-03-13 14:14:54,332 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_%20
+message: SQL Exception: Table 'test_monalisa.test_' doesn't exist
+========================================================================
+SELECT * FROM test_  LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 14:14:54,334 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:14:54,346 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:14:54,352 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:14:54,357 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:14:54,361 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:14:54,365 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:14:54,369 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2_not_exists
+2017-03-13 14:14:54,372 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_record_v2_not_exists
+2017-03-13 14:14:54,372 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_record_v2_not_exists
+message: SQL Exception: Table 'test_monalisa.test_record_v2_not_exists' doesn't exist
+========================================================================
+SELECT * FROM test_record_v2_not_exists LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 14:14:54,374 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/1
+2017-03-13 14:14:54,379 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/record_Id=1
+2017-03-13 14:14:54,383 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/recordId=1
+2017-03-13 14:14:54,387 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/`recordId`=1
+2017-03-13 14:14:54,390 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:14:54,390 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:14:54,391 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:14:54,392 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 14:14:54,394 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 14:14:54,402 [INFO] [com.tsc9526.monalisa.service.Dispatcher] HEAD /`db1`
+2017-03-13 14:14:54,407 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 14:14:54,407 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] POST /db1/test_record_v2/1
+message: Illegal http method: POST
+2017-03-13 14:14:54,409 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 14:14:54,409 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] PUT /db1/test_record_v2/1
+message: Illegal http method: PUT
+2017-03-13 14:14:54,410 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:14:54,411 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:14:54,462 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 14:14:54,486 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 14:14:54,493 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 14:14:54,493 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 14:14:54,498 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 14:14:54,508 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 14:14:54,519 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 14:14:54,530 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 14:14:54,530 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:14:54,541 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:14:54,542 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:14:54,608 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 14:14:54,625 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 14:14:54,632 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 14:14:54,632 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] PUT /db1/test_record_v2/record_id=2
+message: PUT error, no record found!
+2017-03-13 14:14:54,634 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2
+2017-03-13 14:14:54,634 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] PUT /db1/test_record_v2
+message: Access forbidden: PUT, using POST instead.
+2017-03-13 14:18:14,529 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 14:18:14,570 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 14:18:14,610 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 14:18:14,615 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service]
+2017-03-13 14:18:14,617 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 14:18:14,619 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 14:18:14,623 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 14:18:14,625 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 14:18:14,632 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 14:18:14,633 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 14:18:14,633 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 14:18:14,634 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 14:18:14,635 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 14:18:14,640 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs301(/dbs/dbs301), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service
+2017-03-13 14:18:14,641 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs302(/dbs/dbs302), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service
+2017-03-13 14:18:14,644 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 14:18:14,645 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:18:14,663 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 14:18:14,958 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 14:18:14,961 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:18:15,189 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/record_id=2
+2017-03-13 14:18:15,231 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 14:18:15,237 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:18:15,243 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:18:15,244 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 14:18:15,245 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:18:15,245 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:18:15,295 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1
+2017-03-13 14:18:15,295 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] GET /db1
+message: Missing table, add request parameter: method=HEAD OR: /db1/your_table_name
+2017-03-13 14:18:15,297 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_%20
+2017-03-13 14:18:15,303 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_%20
+2017-03-13 14:18:15,304 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_%20
+message: SQL Exception: Table 'test_monalisa.test_' doesn't exist
+========================================================================
+SELECT * FROM test_  LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 14:18:15,306 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:18:15,321 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:18:15,328 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:18:15,332 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:18:15,337 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:18:15,341 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:18:15,345 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2_not_exists
+2017-03-13 14:18:15,347 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_record_v2_not_exists
+2017-03-13 14:18:15,347 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_record_v2_not_exists
+message: SQL Exception: Table 'test_monalisa.test_record_v2_not_exists' doesn't exist
+========================================================================
+SELECT * FROM test_record_v2_not_exists LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 14:18:15,349 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/1
+2017-03-13 14:18:15,355 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/record_Id=1
+2017-03-13 14:18:15,360 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/recordId=1
+2017-03-13 14:18:15,365 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/`recordId`=1
+2017-03-13 14:18:15,368 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:18:15,370 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:18:15,371 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:18:15,371 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 14:18:15,374 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 14:18:15,384 [INFO] [com.tsc9526.monalisa.service.Dispatcher] HEAD /`db1`
+2017-03-13 14:18:15,388 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 14:18:15,388 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] POST /db1/test_record_v2/1
+message: Illegal http method: POST
+2017-03-13 14:18:15,390 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 14:18:15,390 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] PUT /db1/test_record_v2/1
+message: Illegal http method: PUT
+2017-03-13 14:18:15,391 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:18:15,392 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:18:15,446 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 14:18:15,456 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 14:18:15,463 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 14:18:15,463 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 14:18:15,469 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 14:18:15,479 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 14:18:15,491 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 14:18:15,502 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 14:18:15,502 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:18:15,513 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:18:15,514 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:18:15,559 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 14:18:15,568 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 14:18:15,575 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 14:18:15,575 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] PUT /db1/test_record_v2/record_id=2
+message: PUT error, no record found!
+2017-03-13 14:18:15,577 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2
+2017-03-13 14:18:15,577 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] PUT /db1/test_record_v2
+message: Access forbidden: PUT, using POST instead.
+2017-03-13 14:20:43,161 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service]
+2017-03-13 14:20:43,196 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service.cfg
+2017-03-13 14:20:43,229 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs101(/dbs/dbs101), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB001Service
+2017-03-13 14:20:43,233 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service]
+2017-03-13 14:20:43,235 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service.cfg
+2017-03-13 14:20:43,238 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service) base path from class: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service.cfg
+2017-03-13 14:20:43,241 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs201(/dbs/dbs201), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB101Service
+2017-03-13 14:20:43,242 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs202(/dbs/dbs202), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB102Service
+2017-03-13 14:20:43,245 [INFO] [com.tsc9526.monalisa.service.servlet.DbWebContainerInitializer] Startup web: /, db classes: [test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service, test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service]
+2017-03-13 14:20:43,247 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 14:20:43,247 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 14:20:43,248 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path by default path: ., file: src/test/resources/dbconfig/TestDB30xService.cfg
+2017-03-13 14:20:43,248 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Found (test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service) base path from: D:\workspace\workspace-github\monalisa-service\.\src\test\resources\dbconfig\TestDB30xService.cfg
+2017-03-13 14:20:43,253 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs301(/dbs/dbs301), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB301Service
+2017-03-13 14:20:43,256 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: dbs302(/dbs/dbs302), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.servlet.DbWebContainerInitializerTest$TestDB302Service
+2017-03-13 14:20:43,261 [INFO] [com.tsc9526.monalisa.orm.datasource.DBConfig] Search(test.com.tsc9526.monalisa.service.MysqlDB) base path from class: test.com.tsc9526.monalisa.service.MysqlDB, path: D:/workspace/workspace-github/monalisa-service, file: test.com.tsc9526.monalisa.service.MysqlDB.cfg
+2017-03-13 14:20:43,263 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:20:43,276 [INFO] [com.tsc9526.monalisa.tools.maven.JarLocation] >>> Located  artifact: mysql:mysql-connector-java:5.1.24, from D:\workspace\workspace-github\monalisa-service\.\monalisa\lib\mysql-connector-java-5.1.24.jar, Call at: test.com.tsc9526.monalisa.service.actions.AbstractActionTest.setup(AbstractActionTest.java:45)
+2017-03-13 14:20:43,553 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record_v2{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 14:20:43,556 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record_v2, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:20:43,692 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/record_id=2
+2017-03-13 14:20:43,739 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 14:20:43,748 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:20:43,754 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:20:43,754 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 14:20:43,756 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:20:43,756 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:20:43,804 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1
+2017-03-13 14:20:43,805 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] GET /db1
+message: Missing table, add request parameter: method=HEAD OR: /db1/your_table_name
+2017-03-13 14:20:43,808 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_%20
+2017-03-13 14:20:43,815 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_%20
+2017-03-13 14:20:43,815 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_%20
+message: SQL Exception: Table 'test_monalisa.test_' doesn't exist
+========================================================================
+SELECT * FROM test_  LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 14:20:43,818 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:20:43,833 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:20:43,837 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:20:43,841 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:20:43,845 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:20:43,849 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2
+2017-03-13 14:20:43,853 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2_not_exists
+2017-03-13 14:20:43,855 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] Error process path: /db1/test_record_v2_not_exists
+2017-03-13 14:20:43,855 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [500] GET /db1/test_record_v2_not_exists
+message: SQL Exception: Table 'test_monalisa.test_record_v2_not_exists' doesn't exist
+========================================================================
+SELECT * FROM test_record_v2_not_exists LIMIT 30 OFFSET 0
+========================================================================
+2017-03-13 14:20:43,857 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/1
+2017-03-13 14:20:43,863 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/record_Id=1
+2017-03-13 14:20:43,869 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/recordId=1
+2017-03-13 14:20:43,874 [INFO] [com.tsc9526.monalisa.service.Dispatcher] GET /db1/test_record_v2/`recordId`=1
+2017-03-13 14:20:43,878 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:20:43,878 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:20:43,880 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2
+2017-03-13 14:20:43,880 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] DELETE /db1/test_record_v2
+message: Access forbidden, delete all from table disabled: test_record_v2
+2017-03-13 14:20:43,882 [INFO] [com.tsc9526.monalisa.service.Dispatcher] DELETE /db1/test_record_v2/1
+2017-03-13 14:20:43,889 [INFO] [com.tsc9526.monalisa.service.Dispatcher] HEAD /`db1`
+2017-03-13 14:20:43,895 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 14:20:43,895 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] POST /db1/test_record_v2/1
+message: Illegal http method: POST
+2017-03-13 14:20:43,896 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 14:20:43,897 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [405] PUT /db1/test_record_v2/1
+message: Illegal http method: PUT
+2017-03-13 14:20:43,898 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:20:43,898 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:20:43,952 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 14:20:43,964 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/1
+2017-03-13 14:20:43,972 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2/record_id=2
+2017-03-13 14:20:43,972 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] POST /db1/test_record_v2/record_id=2
+message: POST error, no record found!
+2017-03-13 14:20:43,979 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 14:20:43,989 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record_v2
+2017-03-13 14:20:44,002 [INFO] [com.tsc9526.monalisa.service.Dispatcher] POST /db1/test_record,test_record_v2
+2017-03-13 14:20:44,012 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Load table: test_record{recordId, name, title, tsA, createTime, createBy, updateTime, updateBy}
+2017-03-13 14:20:44,013 [INFO] [com.tsc9526.monalisa.orm.model.ModelMeta] Add dynamic table: test_record, dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:20:44,022 [INFO] [com.tsc9526.monalisa.service.DBS] Removed DB service, HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE] : /db1
+2017-03-13 14:20:44,023 [INFO] [com.tsc9526.monalisa.service.DBS] Add DB service: db1(), HTTP: [GET, DELETE, POST, PUT, HEAD], SQL: [INSERT, UPDATE, DELETE, SELECT, DESCRIBE], dbkey: test.com.tsc9526.monalisa.service.MysqlDB
+2017-03-13 14:20:44,082 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 14:20:44,092 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/1
+2017-03-13 14:20:44,100 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2/record_id=2
+2017-03-13 14:20:44,100 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [400] PUT /db1/test_record_v2/record_id=2
+message: PUT error, no record found!
+2017-03-13 14:20:44,102 [INFO] [com.tsc9526.monalisa.service.Dispatcher] PUT /db1/test_record_v2
+2017-03-13 14:20:44,102 [ERROR] [com.tsc9526.monalisa.service.Dispatcher] [403] PUT /db1/test_record_v2
+message: Access forbidden: PUT, using POST instead.
