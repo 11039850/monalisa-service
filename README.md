@@ -1,12 +1,15 @@
 # monalisa-service
 Simple database http serivce. 
 
-## Step 1: Write an interface
+![image](https://github.com/11039850/monalisa-orm/raw/master/doc/images/dbs.gif)
+
+
+## Step 1: Write an class/interface
 
 ```java 
 
-	@DB(url="jdbc:mysql://127.0.0.1:3306/test" ,username="root", password="root", 
-	    dbs="testdb", dbsAuthUsers="none")
+    @DB(url="jdbc:mysql://127.0.0.1:3306/test" ,username="root", password="root", 
+        dbs="testdb", dbsAuthUsers="none")
     public interface TestDB {
     	public static DBConfig DB=DBConfig.fromClass(TestDB.class); 
     }
@@ -67,7 +70,6 @@ OR (Delete by multi-keys)
 
 # Maven: 
 ```xml
-	
 	<dependency>
 		<groupId>com.tsc9526</groupId>
 		<artifactId>monalisa-service</artifactId>
