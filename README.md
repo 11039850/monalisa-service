@@ -4,7 +4,7 @@ Simple database http serivce.
 ![image](https://github.com/11039850/monalisa-orm/raw/master/doc/images/dbs.gif)
 
 
-## Step 1: Write an class/interface
+## Step 1: Write an interface or class
 
 ```java 
 

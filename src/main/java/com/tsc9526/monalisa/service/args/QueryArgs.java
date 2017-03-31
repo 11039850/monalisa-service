@@ -128,7 +128,7 @@ public class QueryArgs {
 	}
 	 
 	protected void parse() {
-		requestDataMap=MelpServlet.toDataMap(req);
+		requestDataMap=MelpServlet.toDataMapParas(req);
 		
 		pathAction=MelpServlet.getActionPath(req);
 

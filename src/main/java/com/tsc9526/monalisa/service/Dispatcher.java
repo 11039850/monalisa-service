@@ -29,6 +29,7 @@ import com.tsc9526.monalisa.service.args.ModelArgs;
 import com.tsc9526.monalisa.tools.datatable.DataMap;
 import com.tsc9526.monalisa.tools.io.MelpFile;
 import com.tsc9526.monalisa.tools.logger.Logger;
+import com.tsc9526.monalisa.tools.servlet.MelpServlet;
 
 /**
  * 
@@ -40,8 +41,12 @@ public class Dispatcher {
 	protected String contentType = "text/json; charset=utf-8";
 	
 	public void doDispatch(HttpServletRequest req,HttpServletResponse resp)throws ServletException, IOException {
-		if("/favicon.ico".equalsIgnoreCase( req.getRequestURI() )){
+		String cp=MelpServlet.getActionPath(req);
+		
+		if("/favicon.ico".equalsIgnoreCase( req.getRequestURI()) ){
 			doResource(req,resp,"/com/tsc9526/monalisa/service/resources/monalisa.png");
+		}else if(cp.startsWith("!")){
+			doResource(req,resp,"/"+cp.substring(1));
 		}else{
 			ModelArgs args=createActionArgs(req,resp);
 		 	 
@@ -120,18 +125,24 @@ public class Dispatcher {
 	}
 	
 	protected void doResource(HttpServletRequest req, HttpServletResponse resp,String resPath)throws ServletException, IOException {
-		int p=resPath.lastIndexOf(".");
 		String ext=null;
-		if(p>0){
-			ext=resPath.substring(p+1);
-		}
 		
-		if(ext==null){
+		if(req.getRequestURI().endsWith("/") && !resPath.endsWith("/")){
 			resPath+="/index.html";
 			ext="html";
-		}else if(resPath.endsWith("/")){
-			resPath+="index.html";
-			ext="html";
+		}else{
+			int p1=resPath.lastIndexOf("/");
+			
+			String fn=resPath.substring(p1+1);
+			
+			int p2=fn.lastIndexOf(".");
+			
+			if(p2>0){
+				ext=fn.substring(p2+1);
+			}else{
+				resp.sendRedirect(req.getRequestURI()+"/");
+				return;
+			}
 		}
 		
 		InputStream in=HttpServlet.class.getResourceAsStream(resPath);
@@ -157,7 +168,7 @@ public class Dispatcher {
 			out.flush();
 			out.close();
 		}else{
-			resp.sendError(404);
+			resp.sendError(404,"Resource not found: "+resPath);
 		}
 	}
 	
