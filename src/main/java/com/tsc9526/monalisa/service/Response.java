@@ -177,6 +177,10 @@ public class Response implements Serializable{
 		return (T)data;
 	}
  
+	public String toString(){
+		return MelpJson.toJsonPretty(this);
+	}
+	
 	public Response setData(Object data) {	
 		if(data instanceof Model){	
 			this.data=((Model<?>)data).toMap(false);
