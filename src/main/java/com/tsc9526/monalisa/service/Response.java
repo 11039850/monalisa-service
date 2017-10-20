@@ -155,6 +155,9 @@ public class Response implements Serializable{
 		return this;
 	}
 
+	public boolean isOk(){
+		return this.status == 200;
+	}
 
 	/**
 	 * @return the Response message
