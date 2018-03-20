@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Metro, a sleek, intuitive, and powerful framework for faster and easier web development for Windows Metro Style.">
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, metro, front-end, frontend, web development">
+    <meta name="author" content="tsc9526:11039850">
+ 
+    <title>Monalisa Service 2.1</title>
+
+    <link href="../assets/css/metro.css" rel="stylesheet">
+    <link href="../assets/css/metro-icons.css" rel="stylesheet">
+    <link href="../assets/css/metro-responsive.css" rel="stylesheet">
+
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/jquery.dataTables.js"></script>
+
+    <script src="../assets/js/metro.js"></script>
+
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+        }
+        .page-content {
+            padding-top: 3.125rem;
+            min-height: 100%;
+            height: 100%;
+        }
+        .table .input-control.checkbox {
+            line-height: 1;
+            min-height: 0;
+            height: auto;
+        }
+
+        @media screen and (max-width: 800px){
+            #cell-sidebar {
+                flex-basis: 52px;
+            }
+            #cell-content {
+                flex-basis: calc(100% - 52px);
+            }
+        }
+    </style>
+
+    <script>
+        function pushMessage(type,caption,content){
+        	if(typeof type==='undefined')type="info";
+        	if(typeof caption==='undefined')caption="提示";
+        	if(typeof content==='undefined')content="";
+        	
+            $.Notify({
+                "caption": caption,
+                "content": content,
+                "type"   : type,
+                "shadow" : true
+            });
+        }
+
+        $(function(){
+            $('.sidebar').on('click', 'li', function(){
+                if (!$(this).hasClass('active')) {
+                    $('.sidebar li').removeClass('active');
+                    $(this).addClass('active');
+                }
+            });
+            
+            $('input[type="checkbox"]').on('change',function(){
+            	$this_box=$(this);
+            	
+            	if($this_box.prop("checked")==true){
+            		pushMessage('success','提示',"数据服务已开启！");
+            	}else{
+            		$this_box.prop("checked",true);
+            		
+            		$.Dialog({
+            		    title: "提示",
+            		    content: "确定要关闭改数据库服务吗?",
+            		    actions: [
+            		        {
+            		            title: "确定",
+            		            onclick: function(el){
+            		            	$this_box.prop("checked",false);
+            		            	pushMessage('success','提示',"数据服务已停止！");
+            		            	
+            		                $(el).data('dialog').close();
+            		            }
+            		        },
+            		        {
+            		            title: "取消",
+            		            cls: "js-dialog-close"
+            		        }
+            		    ],
+            		    options: {
+            		    	 overlay:true
+            		    }
+            		});
+            	}
+            });
+        });
+        
+        $('.app-bar-element').on('mouseover',function(){
+        	console.log(this);
+        	
+        	$(this).click();
+        });
+    </script>
+</head>
+<body class="bg-steel">
+    <div class="app-bar fixed-top darcula" data-role="appbar">
+        <a class="app-bar-element branding">MONALISA-2.1.0</a>
+         
+
+        <div class="app-bar-element place-right">
+            <span class="dropdown-toggle"><span class="mif-cog"></span> zzg </span>
+            <div class="app-bar-drop-container padding10 place-right no-margin-top block-shadow fg-dark" data-role="dropdown" data-no-close="true" style="width: 160px">
+                <ul class="unstyled-list fg-dark">
+                    <li><a href="" class="fg-white1 fg-hover-yellow">Profile</a></li>
+                    <li><a href="" class="fg-white2 fg-hover-yellow">Security</a></li>
+                    <li><a href="" class="fg-white3 fg-hover-yellow">Exit</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content">
+        <div class="flex-grid no-responsive-future" style="height: 100%;">
+            <div class="row" style="height: 100%">
+                <div class="cell size-x200" id="cell-sidebar" style="background-color: #71b1d1; height: 100%">
+                    <ul class="sidebar">
+                        <li class="active"><a href="#">
+                            <span class="mif-database icon"></span>
+                            <span class="title">数据库服务</span>
+                            <span class="counter">0</span>
+                        </a></li>
+                        
+                        <li><a href="#">
+                            <span class="mif-power icon"></span>
+                            <span class="title">自定义查询</span>
+                            <span class="counter">0</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="cell auto-size padding20 bg-white" id="cell-content">
+                    <h1 class="text-light">数据库服务设置 <span class="mif-database place-right"></span></h1>
+                    <hr class="thin bg-grayLighter">
+                    
+                    <div class="input-control text" data-role="input">
+					    <input type="text">
+					    <button class="button"><span class="mif-search"></span></button>
+					</div>
+                    <button class="button primary place-right" onclick="pushMessage('info')"><span class="mif-plus"></span> 增加 </button>
+                     
+                    <table class="table striped hovered border bordered sortable-markers-on-right">
+                        <thead>
+                        <tr>
+                             
+                            <td class="sortable-column sort-asc" style="width: 100px">数据服务名</td>
+                            <td class="sortable-column">数据库用户</td>
+                            <td class="sortable-column">JDBC-URL</td>
+                            <td class="sortable-column">服务地址</td>
+                            <td style="width: 20px">状态</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            
+                            <td>123890723212</td>
+                            <td>Machine number 1</td>
+                            <td><a href="http://virtuals.com/machines/123890723212">link</a></td>
+                            <td class="align-center"><span class="mif-checkmark fg-green"></span></td>
+                            <td>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="check"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td>123890723212</td>
+                            <td>Machine number 2</td>
+                            <td><a href="http://virtuals.com/machines/123890723212">link</a></td>
+                            <td class="align-center"><span class="mif-stop fg-red"></span></td>
+                            <td>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="check"></span>
+                                </label>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

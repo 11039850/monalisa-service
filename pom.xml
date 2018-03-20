@@ -58,6 +58,12 @@
 
 	<dependencies>
 		<dependency>
+		  <groupId>javax.websocket</groupId>
+		  <artifactId>javax.websocket-api</artifactId>
+		  <version>1.1</version>
+		</dependency>
+
+		<dependency>
 			<groupId>com.tsc9526</groupId>
 			<artifactId>monalisa-orm</artifactId>
 			<version>2.0.1-SNAPSHOT</version>

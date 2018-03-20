@@ -38,5 +38,33 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-spdy.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="D:/webserver/apache-tomcat-8.0.21/bin/tomcat-juli.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
